@@ -5,6 +5,7 @@ import com.run.warlord.entity.item.Quality;
 
 public class Material extends Item {
 
+	private static final long serialVersionUID = -5551891103086854962L;
 	private MaterialType type;
 	private Quality quality;
 	

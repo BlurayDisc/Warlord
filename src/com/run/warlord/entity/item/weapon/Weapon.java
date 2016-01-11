@@ -5,6 +5,7 @@ import com.run.warlord.entity.item.RandomizableItem;
 
 public class Weapon extends RandomizableItem {
 
+	private static final long serialVersionUID = -7618993635641611714L;
 	protected double attackRate;
 	protected Quality quality;
 	protected int accuracy;

@@ -1,7 +1,5 @@
 package com.run.warlord.entity.skill;
 
-import com.run.warlord.entity.skill.smithing.Requirement;
-
 public class Skill {
 	
 	private static final int BASE_XP = 100;
@@ -32,10 +30,6 @@ public class Skill {
 		if (exp >= expToLevelUp) {
 			levelUp();
 		}
-	}
-	
-	public boolean satisfy(Requirement requirement) {
-		return level > requirement.getLumber();
 	}
 	
 	public void levelUp() {

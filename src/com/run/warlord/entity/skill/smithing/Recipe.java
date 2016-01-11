@@ -11,7 +11,23 @@ public class Recipe {
 	private Map<Item, Integer> requirements;
 	private Skill requiredSkill;
 	
-	Recipe() {
-		requirements = new HashMap<>();
+	public Recipe() {
+		this.setRequirements(new HashMap<>());
+	}
+
+	public Map<Item, Integer> getRequirements() {
+		return requirements;
+	}
+
+	public void setRequirements(Map<Item, Integer> requirements) {
+		this.requirements = requirements;
+	}
+
+	public Skill getRequiredSkill() {
+		return requiredSkill;
+	}
+
+	public void setRequiredSkill(Skill requiredSkill) {
+		this.requiredSkill = requiredSkill;
 	}
 }

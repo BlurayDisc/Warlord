@@ -4,6 +4,7 @@ import com.run.warlord.entity.item.armour.Armour;
 
 public class MeleeArmour extends Armour {
 	
+	private static final long serialVersionUID = -4518609637996003800L;
 	protected int accuracy;
 	protected int damage;
 	

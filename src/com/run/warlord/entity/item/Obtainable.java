@@ -1,6 +1,8 @@
 package com.run.warlord.entity.item;
 
-public interface Obtainable {
+import java.io.Serializable;
+
+public interface Obtainable extends Serializable {
 
 
 }

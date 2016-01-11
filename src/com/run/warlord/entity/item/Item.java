@@ -8,6 +8,7 @@ package com.run.warlord.entity.item;
  */
 public class Item implements Obtainable {
 	
+	private static final long serialVersionUID = 19068440990483613L;
 	protected String name;
 	protected Quality quality;
 	

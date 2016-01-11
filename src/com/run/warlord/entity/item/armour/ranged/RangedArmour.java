@@ -5,6 +5,7 @@ import com.run.warlord.entity.skill.smithing.Craftable;
 
 public class RangedArmour extends Armour implements Craftable {
 	
+	private static final long serialVersionUID = -8880147682816019297L;
 	protected int accuracy;
 	protected int damage;
 	

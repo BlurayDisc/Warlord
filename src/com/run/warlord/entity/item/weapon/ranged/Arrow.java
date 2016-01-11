@@ -4,4 +4,9 @@ import com.run.warlord.entity.skill.smithing.Forgable;
 
 public class Arrow extends RangedWeapon implements Forgable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7029862065296321521L;
+
 }

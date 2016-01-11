@@ -5,6 +5,7 @@ import com.run.warlord.entity.item.weapon.SpecialSuffix;
 
 public class Armour extends RandomizableItem {
 	
+	private static final long serialVersionUID = 1098741660282555159L;
 	protected int defence;
 	protected int magicalDefence;
 	protected int strength;

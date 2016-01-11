@@ -2,6 +2,8 @@ package com.run.warlord.entity.item;
 
 public abstract class RandomizableItem extends Item {
 
+	private static final long serialVersionUID = -4591742916671739056L;
+
 	/**
 	 * Randomizes the states of this Item.
 	 * <p> Sub classes of this object must implement this method which
