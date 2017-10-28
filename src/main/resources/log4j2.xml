@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+    	<Console name="Console">
+      		<PatternLayout pattern="%style{%d{HH:mm:ss.SSS}}{green} %style{[%t]}{red} %highlight{%level}{FATAL=bg_red, ERROR=red, WARN=yellow, INFO=green, DEBUG=blue} - %msg%n"/>
+    	</Console>
+  	</Appenders>
+  	<Loggers>
+  		<Logger name="org.apache.log4j.xml" level="trace"/>
+    	<Root level="trace">
+      		<AppenderRef ref="Console"/>
+    	</Root>
+  	</Loggers>
+</Configuration>
